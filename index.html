@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httpen-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JackEnPoy by Raiza Estrella</title>
+    <link rel="stylesheet" href="rock.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+          <ul>
+            <img src="gp1.png">
+            <a class="active" href="rockinstr.html"><i class="fa fa-fw fa-home"></i>INSTRUCTIONS</a> 
+        </ul>
+        </div>
+      </header>
+
+
+      <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <hr>
+        <p>Click on one of the buttons to make your choice:</p>
+        <div class="card">
+            <img src="rock.png" alt="Card Image">
+            <h3>ROCK</h3>
+            <button id="rock" onclick="rock();">Rock</button> 
+        </div>
+        <div class="card">
+            <img src="paper.png" alt="Card Image">
+            <h3>PAPER</h3>
+            <button id="paper" onclick="paper();">Paper</button> 
+        </div>
+        <div class="card">
+            <img src="scissors.png" alt="Card Image">
+            <h3>SCISSORS</h3>
+            <button id="scissors" onclick="scissors();">Scissors</button> 
+        </div>
+        
+    
+
+        
+    <div>
+        <h2>Score</h2>
+        <p id="score">Player: 0, Computer: 0</p>
+    </div>
+    
+    
+    <div>
+        <h2>History of Plays</h2>
+        <ul id="history"></ul>
+    </div>
+      
+    
+</div>
+
+
+    <script src="rock.js"></script>
+</body>
+
+<footer>
+    <div class="footer">
+      <p>&copy; 2023 ROCK PAPER SCISSORS</p>
+    </div>    
+    </footer>
+</html>
